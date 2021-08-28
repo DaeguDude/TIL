@@ -48,16 +48,21 @@ We can make this 'impure' function to 'pure' function.
 
 ```javascript
 function getPeopleOverFifty(people) {
-  return people.filter((person) => person.age > 50)
+  return people.filter((person) => person.age > 50);
 }
 
-const groupOne = { name: "John", age: 51 }, { name: "Matthew", age: 32 },
+const groupOne = [
+  { name: "John", age: 51 },
+  { name: "Matthew", age: 32 },
+];
 
-const groupTwo = { name: "Michael", age: 30 },
+const groupTwo = [
+  { name: "Michael", age: 30 },
   { name: "Kim", age: 66 },
+];
 
-getPeopleOverFifty(groupOne) // { name: "John", age: 51 }
-getPeopleOverFifty(groupTwo) // { name: "Kim", age: 66 }
+getPeopleOverFifty(groupOne); // { name: "John", age: 51 }
+getPeopleOverFifty(groupTwo); // { name: "Kim", age: 66 }
 ```
 
 See how this pure function takes an array of people and uses it to filter people that are over 50? In this way, whatever input is passed in, it will always produce the same result. Pure function can't depend on outside variables.
