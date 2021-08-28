@@ -120,3 +120,9 @@ describe("getValueAddedTax", () => {
 Here, the test code of impure function, you see how the function is confined to just calculate what fixed value of text, whether makes it less flexible? And also, you are not too sure what it will return since it depends on the `tax` variable. What if it changes to `0.2`? We will have to rewrite our test code...That's very redundant work.
 
 So it seems like it's good to write pure function when it's 'possible'. Not all code can be written in pure function.
+
+## References
+
+- [JavaScript: What Are Pure Functions And Why Use Them?](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c)
+
+- [pure versus impure functions](https://ultimatecourses.com/blog/pure-versus-impure-functions)
