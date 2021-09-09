@@ -1,0 +1,23 @@
+{
+  "name": "TIL",
+  "version": "1.0.0",
+  "description": "오늘 내가 배운 것을 정리하는 곳",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaeguDude/TIL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaeguDude/TIL/issues"
+  },
+  "homepage": "https://github.com/DaeguDude/TIL#readme",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1"
+  }
+}
