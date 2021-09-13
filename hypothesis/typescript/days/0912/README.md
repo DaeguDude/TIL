@@ -1,6 +1,6 @@
-## DAY 4 - 2021/09/11
+## DAY 4 - 2021/09/12
 
-### Typescript
+### Literal Types
 
 [Literal Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types)
 

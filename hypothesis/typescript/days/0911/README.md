@@ -1,4 +1,4 @@
-## DAY 3 - 2021/09/10
+## DAY 3 - 2021/09/11
 
 ### Typescript Alias
 
