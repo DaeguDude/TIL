@@ -12,4 +12,4 @@
 
 ### Narrowing
 
-[Doc Link](https://www.typescriptlang.org/docs/handbook/2/narrowing.html)
+- ~ [Control Flow Analysis](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#control-flow-analysis) 09/14
