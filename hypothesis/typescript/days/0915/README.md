@@ -1,4 +1,4 @@
-## DAY 7 - 2021/09/14
+## DAY 7 - 2021/09/15
 
 ### 뭐야, e.target에 value property가 없다고!?
 
