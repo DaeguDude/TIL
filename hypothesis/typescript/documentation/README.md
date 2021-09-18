@@ -13,3 +13,4 @@
 ### Narrowing
 
 - ~ [Control Flow Analysis](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#control-flow-analysis) 09/14
+- ~ [Exhaustiveness checking](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#exhaustiveness-checking) 09/18
