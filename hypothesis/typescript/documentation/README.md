@@ -16,3 +16,8 @@
 - ~ [Exhaustiveness checking](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#exhaustiveness-checking) 09/18
 - ~ [Guidelines for writing good generic functions](https://www.typescriptlang.org/docs/handbook/2/functions.html#guidelines-for-writing-good-generic-functions) 09/19
 - ~ [Assignability of Functions](https://www.typescriptlang.org/docs/handbook/2/functions.html#assignability-of-functions)
+
+### Object Types
+
+- ~ [Readonly Properties](https://www.typescriptlang.org/docs/handbook/2/objects.html#readonly-properties) 09/22
+- ~ [Generic Object Types](https://www.typescriptlang.org/docs/handbook/2/objects.html#generic-object-types) 09/23
