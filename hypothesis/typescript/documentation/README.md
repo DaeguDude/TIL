@@ -21,3 +21,7 @@
 
 - ~ [Readonly Properties](https://www.typescriptlang.org/docs/handbook/2/objects.html#readonly-properties) 09/22
 - ~ [Generic Object Types](https://www.typescriptlang.org/docs/handbook/2/objects.html#generic-object-types) 09/23
+
+- ~ [The ReadonlyArray Type](https://www.typescriptlang.org/docs/handbook/2/objects.html#the-readonlyarray-type) 09/26
+
+- ~ [Readonly Tuple Types](https://www.typescriptlang.org/docs/handbook/2/objects.html#readonly-tuple-types)
