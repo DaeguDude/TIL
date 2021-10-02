@@ -25,3 +25,7 @@
 - ~ [The ReadonlyArray Type](https://www.typescriptlang.org/docs/handbook/2/objects.html#the-readonlyarray-type) 09/26
 
 - ~ [Readonly Tuple Types](https://www.typescriptlang.org/docs/handbook/2/objects.html#readonly-tuple-types)
+
+### Creating Types from Types
+
+- ~ [Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html)
