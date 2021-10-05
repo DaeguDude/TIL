@@ -24,8 +24,16 @@
 
 - ~ [The ReadonlyArray Type](https://www.typescriptlang.org/docs/handbook/2/objects.html#the-readonlyarray-type) 09/26
 
-- ~ [Readonly Tuple Types](https://www.typescriptlang.org/docs/handbook/2/objects.html#readonly-tuple-types)
+- ~ [Readonly Tuple Types](https://www.typescriptlang.org/docs/handbook/2/objects.html#readonly-tuple-types) 09/27
 
 ### Creating Types from Types
 
-- ~ [Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html)
+- ~ [Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html) 10/02
+
+- ~[Keyof Type Operator](https://www.typescriptlang.org/docs/handbook/2/keyof-types.html)
+
+- ~[Typeof Type Operator](https://www.typescriptlang.org/docs/handbook/2/typeof-types.html)
+
+- ~[Indexed Access Types](https://www.typescriptlang.org/docs/handbook/2/indexed-access-types.html)
+
+- ~[Conditional Types](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html) 10/05
