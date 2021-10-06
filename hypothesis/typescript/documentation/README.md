@@ -37,3 +37,7 @@
 - ~[Indexed Access Types](https://www.typescriptlang.org/docs/handbook/2/indexed-access-types.html)
 
 - ~[Conditional Types](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html) 10/05
+
+- ~[Mapped Types](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html)
+
+- ~[Template Literal Types](https://www.typescriptlang.org/docs/handbook/2/template-literal-types.html) 10/06
