@@ -41,3 +41,6 @@
 - ~[Mapped Types](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html)
 
 - ~[Template Literal Types](https://www.typescriptlang.org/docs/handbook/2/template-literal-types.html) 10/06
+
+- [Classes](https://www.typescriptlang.org/docs/handbook/2/classes.html)
+  Reading the [background reading](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) 10/07
