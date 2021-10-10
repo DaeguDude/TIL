@@ -31,6 +31,14 @@ Developer Tea 팟캐스트를 듣다가 엄청나게 [흥미로운 Episode(Use y
 
 ### Typescript 공식문서 2회 독파
 
+#### 정리
+
+- 실험목표: 2회독파
+- 실제 읽은 양: 1회 75%
+- 달성률: 37.5%
+
+---
+
 Typescript 기본적인 공식문서는 [Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)이다. Handbook은 아래와 같이 이루어져 있고, 내가 읽은 자료는 다음과 같다.
 
 - [The Typescript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) 09/09
@@ -60,6 +68,14 @@ Typescript 기본적인 공식문서는 [Handbook](https://www.typescriptlang.or
 ## 1일 1 몰랐던 Typescript 정리
 
 이번 실험을 하면서 또 하나의 요건인 타입스크립트의 몰랐던 개념을 하루에 한 개씩 정리하는 것이었다.
+
+#### 정리
+
+- 실험목표 총 일수: 31일
+- 정리를 한 일수: 22일
+- 달성률: 70%
+
+---
 
 - **Day1** 09/09 [타입스크립트는 정적인 타입체킹 시스템이다](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/0909)
 - **Day2** 09/10[Type Annotation과 Contextual Typing](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/0910) 09/10
@@ -92,3 +108,104 @@ Typescript 기본적인 공식문서는 [Handbook](https://www.typescriptlang.or
 - **Day29** 10/07 x
 - **Day30** 10/08 x
 - **Day31** 10/09 x
+
+## 실험결과
+
+### Typescript Documentation에 나오는 개념들을 보며 이해하고 예제코드로 설명할 수 있다.
+
+아주 정확하게 하는 것은 불가능 할 것 같고, 기본적으로 크게 3가지로 나누어 보았다.
+**A** - 개념을 보고 이해하고 예제코드로 설명가능
+**B** - 개념을 대충 이해하고 있고 **공식문서를 참조**하면 예제코드로 설명가능
+**C** - 이해를 못하고 있고 설명도 할 수 없음
+
+### 정리
+
+총 40개의 개념
+
+- A - 15
+- B - 13
+- C - 12
+
+기본적으로 정리를 하자면, Typescript에 대한 개념이 전반적으로 아주 상승했다고 볼 수 있다.
+
+**The Basics**
+
+- **A** - Static Type checking에 대해서 설명할 수 있는지?
+
+Everyday Types
+
+- **A** - primitive types
+- **A** - Object Types
+- **A** - Union Types
+- **A** - Type alias
+- **A** - Interface
+- **B** - Type Assertion
+- **A** - Literal Types
+- **C** - Enum
+
+Narrowing
+
+- **A** - typeof type guards
+- **A** - Truthiness narrowing
+- **A** - Equality narrowing
+- **A** - The in operator narrowing
+- **B** - Control flow analysis
+- **C** - Type predicates
+- **C** - Discriminated Unions
+- **C** - never type
+
+More on functions
+
+- **B** - Function type expressions
+- **C** - Call Signatures
+- **C** - Construct Signatures
+- **B** - Generic Functions
+- **A** - Optional Parameters
+- **C** - Function Overloads
+- **B** - Rest parameters and arguments
+- **A** - Parameter destructuring
+
+Object Types
+
+- **B** - Property Modifiers
+- **B** - Index signature
+- **B** - Extending Types
+- **C** - Intersection Types
+- **A** - Generic Object Types
+
+Creating Types from Types
+Generics
+
+- **A** - Generic Types
+- **C** - Generic Classes
+- **B** - Generic Constraints
+
+Keyof Type Operator
+
+- **B** - the keyof type operator
+
+Typeof Type operator
+
+- **B** - the typeof type operator
+
+Indexed Access Types
+
+- **B** - indexed Access Types
+
+Conditional Types
+
+- **B** - Conditional Type constraints
+- **C** - Distributive Conditional Types
+
+Mapped Types
+
+- **C** - mapped types
+
+Template literal Types
+
+- **C** - template literal types
+
+### Typescript에 나오는 개념들을 사용하여 실제 프로젝트를 진행할 수 있다.
+
+실제로 Typescript에 나오는 개념들을 사용하여 실제 프로젝트를 진행하고 있는지?
+어떤 개념들을 나는 사용하고 있는가?
