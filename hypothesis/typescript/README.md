@@ -27,6 +27,68 @@ Developer Tea 팟캐스트를 듣다가 엄청나게 [흥미로운 Episode(Use y
 - Typescript Documentation에 나오는 개념들을 보며 이해하고 예제(코드)로 설명할 수 있다.
 - TypeScript에 나오는 개념들을 사용하여 실제 프로젝트를 진행할 수 있다 혹은 진행했다.(지금 내가 사용할 수 있는 기본적인 개념들을 정리해보자, 그리고 마지막에 비교를 하면 될 것. 내가 어떤 개념들을 사용하며 프로젝트에 실제 적용을 하고 있는지)
 
-## Typescript 공식문서 2회 독파
+## 자료
+
+### Typescript 공식문서 2회 독파
+
+Typescript 기본적인 공식문서는 [Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)이다. Handbook은 아래와 같이 이루어져 있고, 내가 읽은 자료는 다음과 같다.
+
+- [The Typescript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) 09/09
+- [The Basics](https://www.typescriptlang.org/docs/handbook/2/basic-types.html) 09/09
+- [Everyday Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html) 09/10~09/12
+- [Narrowing](https://www.typescriptlang.org/docs/handbook/2/narrowing.html) 09/14~09/18
+- [More on Functions](https://www.typescriptlang.org/docs/handbook/2/functions.html) 09/19~09/21
+- [Object Types](https://www.typescriptlang.org/docs/handbook/2/objects.html) 09/22~09/27
+
+- **Type Manipulation**
+
+  - [Creating Types from Types](https://www.typescriptlang.org/docs/handbook/2/types-from-types.html) 10/02
+  - [Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html) 10/02
+  - [Keyof Type Operator](https://www.typescriptlang.org/docs/handbook/2/keyof-types.html) 10/02
+  - [Typeof Type Operator](https://www.typescriptlang.org/docs/handbook/2/typeof-types.html) 10/02
+  - [Indexed Access Types](https://www.typescriptlang.org/docs/handbook/2/indexed-access-types.html) 10/02
+  - [Conditional Types](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html) 10/05
+  - [Mapped Types](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html) 10/06
+  - [Template Literal Types](https://www.typescriptlang.org/docs/handbook/2/template-literal-types.html) 10/06
+
+- [Classes](https://www.typescriptlang.org/docs/handbook/2/classes.html)
+- [Modules](https://www.typescriptlang.org/docs/handbook/2/modules.html)
+
+일단 실험을 할 당시 충족을 해야 했던 공식문서 2회를 독파하지 못했다.
+위의 카테고리가 9개 있다고 가정을 했을 때, 7 가지의 카테고리는 다 읽었다. 공식 문서 1회 독파의 75% 정도는 했다고 볼 수 있다.
 
 ## 1일 1 몰랐던 Typescript 정리
+
+이번 실험을 하면서 또 하나의 요건인 타입스크립트의 몰랐던 개념을 하루에 한 개씩 정리하는 것이었다.
+
+- **Day1** 09/09 [타입스크립트는 정적인 타입체킹 시스템이다](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/0909)
+- **Day2** 09/10[Type Annotation과 Contextual Typing](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/0910) 09/10
+- **Day3** 09/11 [Type Alias](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/0911)
+- **Day4** 09/12 [Literal Types](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/0912)
+- **Day5** 09/13 [Extending Union Type](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/0913)
+- **Day6** 09/14 [Generic이란](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/0914)
+- **Day7** 09/15 [e.target에 value property가 없다고?](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/0915)
+- **Day8** 09/16 [ReturnType, 넌 누구냐](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/0916)
+- **Day9** 09/17 [non-null assertion](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/0917)
+- **Day10** 09/18 [Discriminated Union](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/0917)
+- **Day11** 09/19 [Function Type Expression](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/0919)
+- **Day12** 09/20 [never를 사용해](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/0920)
+- **Day13** 09/21 [useState의 타입](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/0921)
+- **Day14** 09/22 [readonly 프로퍼티](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/0922)
+- **Day15** 09/23 [Type 상속(extend)받기](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/0923)
+- **Day16** 09/24 [property 'x' does not exist on union type](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/0924)
+- **Day17** 09/25 [Type 'string' is not assignable to union type, but it exists in union type](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/0925)
+- **Day18** 09/26 [ReadonlyArray Type](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/0926)
+- **Day19** 09/27 [Tuple Types](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/0926)
+- **Day20** 09/28 x
+- **Day21** 09/29 x
+- **Day22** 09/30 x
+- **Day23** 10/01 x
+- **Day24** 10/02 [Generic Constraints, 재밌는 녀석이군!](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/1002)
+- **Day25** 10/03 x
+- **Day26** 10/04 x
+- **Day27** 10/05 [keyof type operator, 너 아주 유용할 것 같아](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/1005)
+- **Day28** 10/06 [Conditional Type, 넌 누구냐?](https://github.com/DaeguDude/TIL/tree/main/hypothesis/typescript/days/1006)
+- **Day29** 10/07 x
+- **Day30** 10/08 x
+- **Day31** 10/09 x
